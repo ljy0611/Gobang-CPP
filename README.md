@@ -1,21 +1,41 @@
-## Gobang-CPP
-大一C++课程实训项目，源码700余行，基于C++ + EasyX图形库实现桌面五子棋。
+# Gobang-CPP
 
-## 开发环境
-IDE：Visual Studio 2026
-依赖：EasyX图形库
-系统：Windows10/Windows11
+一个基于 C++ 和 EasyX 图形库开发的 Windows 桌面五子棋项目。
 
-## 功能介绍
-1. 双人鼠标对战；
-2. 横、竖、斜向四个方向自动判胜负（五连子获胜）；
-3. R键重启对局，ESC退出程序；
-4. 棋盘绘制、黑白棋子渲染。
+## 项目功能
 
-## 运行方法
-1. VS2026安装EasyX库；
-2. 打开`五子棋_FINAL.cpp`；
-3. Ctrl+F5编译运行。
+- 支持玩家对玩家（PvP）模式；
+- 支持玩家对 AI（PvE）模式；
+- 支持 AI 演示模式；
+- 支持简单、普通、困难三种 AI 难度；
+- 支持 AI 执黑或执白；
+- 支持黑白棋落子、横向、纵向和斜向五连判胜；
+- 支持每步 60 秒倒计时，可通过 `T` 键开关；
+- 支持 `R` 键重新开始、`ESC` 键退出。
 
-## 文件说明
-五子棋_FINAL.cpp：项目全部源码
+## 运行环境
+
+- Windows 10 / Windows 11
+- Visual Studio（安装“使用 C++ 的桌面开发”）
+- EasyX 图形库
+
+## 运行方式
+
+1. 安装 EasyX；
+2. 使用 Visual Studio 打开项目；
+3. 确保 `ChessUnderground.bmp` 位于程序运行目录；
+4. 编译并运行项目。
+
+## 游戏截图
+
+### 主菜单
+
+![游戏主菜单](assets/screenshots/menu.png)
+
+### 对局进行中
+
+![对局进行中](assets/screenshots/gameplay.png)
+
+### 胜负判定
+
+![胜负判定](assets/screenshots/win.png)
