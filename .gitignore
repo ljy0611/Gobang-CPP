@@ -1,0 +1,23 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# 构建输出
+Debug/
+Release/
+x64/
+build/
+out/
+cmake-build-*/
+
+# 编译中间文件
+*.obj
+*.o
+*.pch
+*.ilk
+*.pdb
+*.exe
+
+# 运行时生成
+*.log
